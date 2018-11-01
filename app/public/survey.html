@@ -182,7 +182,7 @@
 
     <script type="text/javascript">
         //chosen css
-        var config = {
+        let config = {
             ".chosen-select": {},
             ".chosen-select-deselect": {
                 allow_single_deselect: true
@@ -198,7 +198,7 @@
             }
         };
 
-        for (var selector in config) {
+        for (let selector in config) {
             $(selector).chosen(config[selector]);
         }
 
@@ -207,7 +207,7 @@
             event.preventDefault();
             //form validation
             function validateForm() {
-                var isValid = true;
+                let isValid = true;
                 $(".form-control").each(function () {
                     if ($(this).val() === "") {
                         isValid = false;
@@ -222,7 +222,7 @@
                 return isValid;
             }
             if (validateForm()) {
-                var userData = {
+                let userData = {
                     name: $("#name").val(),
                     photo: $("#photo").val(),
                     scores: [

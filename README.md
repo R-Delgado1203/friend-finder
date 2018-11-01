@@ -1,4 +1,3 @@
-# **friend-finder**
 ![alt text](./images/home.png "friend-finder")
 
 Friend-Finder app allows you to take a survey and find the best possible match for a "friend" from a list of other users that have taken the survey. 
@@ -7,7 +6,9 @@ After completing the survey the app will match the current user with a previous 
 
 Find the deployed app here. https://r-delgado1203-friend-finder.herokuapp.com/
 
+-----
 
+**Sample**
 
 ![alt text](./images/fullapp.PNG "friend-finder")
 

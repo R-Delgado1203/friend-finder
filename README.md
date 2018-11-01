@@ -9,6 +9,6 @@ Find the deployed app here. https://r-delgado1203-friend-finder.herokuapp.com/
 
 
 
-![alt text](./images/fullapp.png "friend-finder")
+![alt text](./images/fullapp.PNG "friend-finder")
 
 ![alt text](./images/match.png "match")
